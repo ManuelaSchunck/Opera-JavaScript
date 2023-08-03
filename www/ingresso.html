@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Tela de Venda de Ingressos</title>
+	<link rel="stylesheet" href="css/style.css">
+    <script src="components/script.js"></script>
+</head>
+<body>
+   
+   
+    
+	<div class="container">
+		<h1>Tela de Venda de Ingressos</h1>
+		<div class="seats"  id="seats" id="registration">
+			<span class="fileiras">A</span><div class="seat" onclick="calcularAssento(25)"> <p class="txtseat" >$25 </p></div>
+			<div class="seat" onclick="calcularAssento(25)"> <p class="txtseat" >$25 </p></div>
+			<div class="seat" onclick="calcularAssento(25)" ><p class="txtseat" >$25</p></div>
+			<div class="seat" onclick="calcularAssento(25)"><p class="txtseat" >$25</p></div>
+			<div class="seat" onclick="calcularAssento(25)"><p class="txtseat" >$25</p></div>
+      </div>
+
+            <div class="seats2">
+            <span class="fileiras">B</span><div class="seat1" onclick="calcularAssento(25)"><p class="txtseat">$25</p></div>
+            <div class="seat1" onclick="calcularAssento(25)"><p class="txtseat" >$25</p></div>
+			<div class="seat1" onclick="calcularAssento(25)"><p class="txtseat" >$25</p></div>
+			<div class="seat1" onclick="calcularAssento(25)"><p class="txtseat" >$25</p></div>
+			<div class="seat1" onclick="calcularAssento(25)"><p class="txtseat" >$25</p></div>
+      </div>
+
+      <div class="seats3">
+            <span class="fileiras">C</span><div class="seat2" onclick="calcularAssento(20)"><p class="txtseat2" >$20</p></div>
+			<div class="seat2" onclick="calcularAssento(20)"><p class="txtseat2">$20</p></div>
+			<div class="seat2" onclick="calcularAssento(20)"><p class="txtseat2" >$20</p></div>
+			<div class="seat2" onclick="calcularAssento(20)"><p class="txtseat2" >$20</p></div>
+			<div class="seat2" onclick="calcularAssento(20)"><p class="txtseat2" >$20</p></div>
+      </div>
+       <div class="seats4">
+            <span class="fileiras">D</span><div class="seat6" onclick="calcularAssento(10)"><p class="txtseat6" >$10</p></div>
+			<div class="seat6" onclick="calcularAssento(10)"><p class="txtseat6" >$10</p></div>
+			<div class="seat7" onclick="calcularAssento(12)"><p class="txtseat7" >$12</p></div>
+			<div class="seat3" onclick="calcularAssento(15)"><p class="txtseat3" >$15</p></div>
+			<div class="seat3" onclick="calcularAssento(15)"><p class="txtseat3" >$15</p></div>
+            <div class="seat3" onclick="calcularAssento(15)"><p class="txtseat3" >$15</p></div>
+			<div class="seat7" onclick="calcularAssento(12)"><p class="txtseat7" >$12</p></div>
+			<div class="seat6" onclick="calcularAssento(10)"><p class="txtseat6" >$10</p></div>
+			<div class="seat6" onclick="calcularAssento(10)"><p class="txtseat6" >$10</p></div>
+      </div>
+     
+    
+        <div class="seats5">
+           
+            <span class="fileiras">E</span><div class="seat6" onclick="calcularAssento(10)"><p class="txtseat6" >$10</p></div>
+			
+                
+         <div class="seat6" onclick="calcularAssento(10)"><p class="txtseat6" >$10</p></div>
+       
+			<div class="seat7" onclick="calcularAssento(12)"><p class="txtseat7" >$12</p></div>
+			<div class="seat4" onclick="calcularAssento(15)"><p class="txtseat3" >$15</p></div>
+			<div class="seat4" onclick="calcularAssento(15)"><p class="txtseat3" >$15</p></div>
+            <div class="seat4" onclick="calcularAssento(15)"><p class="txtseat3" >$15</p></div>
+			<div class="seat7" onclick="calcularAssento(12)"><p class="txtseat7" >$12</p></div>
+			<div class="seat6" onclick="calcularAssento(10)"><p class="txtseat6" >$10</p></div>
+			<div class="seat6" onclick="calcularAssento(10)"><p class="txtseat6" >$10</p></div>
+      </div>
+      
+      <tr class="fileiras1">
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<th>1 </th>  &nbsp; &nbsp; <th>2 </th> &nbsp; &nbsp; &nbsp;<th>3 </th> &nbsp; &nbsp; <th>4 </th> &nbsp; &nbsp;<th>5 </th> &nbsp; &nbsp; &nbsp;<th>6 </th>  &nbsp; &nbsp; &nbsp;<th>7 </th>  &nbsp;&nbsp; &nbsp;<th>8 </th> &nbsp; &nbsp; <th>9 </th>
+      </tr>
+      <div class="tela">
+         <p class="texto1"> Palco </p>
+      </div>
+      
+    
+		
+		<div class="total">
+            <button onclick="limparValores()">Limpar</button>
+			<p id="total">R$ <span id="valorTotal">0</span></p>
+
+
+			<a href="Cadastro.html"><button id="buy-btn">Comprar</button></a>
+		</div>
+        <a href="index.html"> <button class="botao3"> Voltar</button></a>
+	</div>
+
+</body>
+</html>

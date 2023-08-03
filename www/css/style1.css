@@ -1,0 +1,28 @@
+body {
+    background-color: #F4E2DE;
+    color: rgb(105, 104, 104);
+}
+h1 {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+h2 {
+    text-align: center;
+}
+button {
+    background-color: #ca0025;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+    margin-left: 38%;
+}
+.obra1 {
+    position: relative;
+    left: 30%;
+}
+
+
